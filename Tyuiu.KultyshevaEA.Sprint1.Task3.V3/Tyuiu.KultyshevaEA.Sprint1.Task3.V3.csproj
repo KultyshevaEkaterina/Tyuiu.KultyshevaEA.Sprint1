@@ -4,16 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{11BA6C0B-50DE-4AEA-A373-A0A0A3061FAB}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tyuiu.KultyshevaEA.Sprint1.Task2.V19.Lib</RootNamespace>
-    <AssemblyName>Tyuiu.KultyshevaEA.Sprint1.Task2.V19.Lib</AssemblyName>
+    <ProjectGuid>{D817298E-FEF5-47B4-9141-CC02E7C59C84}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Tyuiu.KultyshevaEA.Sprint1.Task3.V3</RootNamespace>
+    <AssemblyName>Tyuiu.KultyshevaEA.Sprint1.Task3.V3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -39,16 +41,19 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="tyuiu.cources.programming.interfaces">
-      <HintPath>..\..\..\..\Downloads\tyuiu.cources.programming.interfaces.dll</HintPath>
-    </Reference>
-    <Reference Include="tyuiu.cources.programming.interfaces %284%29">
-      <HintPath>..\tyuiu.cources.programming.interfaces (4).dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataService.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tyuiu.KultyshevaEA.Sprint1.Task3.V3.Lib\Tyuiu.KultyshevaEA.Sprint1.Task3.V3.Lib.csproj">
+      <Project>{81cabe6e-b1dd-4d38-a732-045618cc8c2f}</Project>
+      <Name>Tyuiu.KultyshevaEA.Sprint1.Task3.V3.Lib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

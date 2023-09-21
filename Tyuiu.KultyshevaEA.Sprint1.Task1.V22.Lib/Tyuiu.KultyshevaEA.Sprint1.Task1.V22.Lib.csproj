@@ -42,8 +42,8 @@
     <Reference Include="tyuiu.cources.programming.interfaces">
       <HintPath>..\..\tyuiu.cources.programming.interfaces.dll</HintPath>
     </Reference>
-    <Reference Include="tyuiu_cources_programming_interfaces">
-      <HintPath>..\tyuiu_cources_programming_interfaces.dll</HintPath>
+    <Reference Include="tyuiu.cources.programming.interfaces %284%29">
+      <HintPath>..\tyuiu.cources.programming.interfaces (4).dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

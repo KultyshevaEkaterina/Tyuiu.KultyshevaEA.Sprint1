@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{11BA6C0B-50DE-4AEA-A373-A0A0A3061FAB}</ProjectGuid>
+    <ProjectGuid>{81CABE6E-B1DD-4D38-A732-045618CC8C2F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tyuiu.KultyshevaEA.Sprint1.Task2.V19.Lib</RootNamespace>
-    <AssemblyName>Tyuiu.KultyshevaEA.Sprint1.Task2.V19.Lib</AssemblyName>
+    <RootNamespace>Tyuiu.KultyshevaEA.Sprint1.Task3.V3.Lib</RootNamespace>
+    <AssemblyName>Tyuiu.KultyshevaEA.Sprint1.Task3.V3.Lib</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -40,10 +40,7 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="tyuiu.cources.programming.interfaces">
-      <HintPath>..\..\..\..\Downloads\tyuiu.cources.programming.interfaces.dll</HintPath>
-    </Reference>
-    <Reference Include="tyuiu.cources.programming.interfaces %284%29">
-      <HintPath>..\tyuiu.cources.programming.interfaces (4).dll</HintPath>
+      <HintPath>..\tyuiu.cources.programming.interfaces.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
