@@ -44,7 +44,7 @@ namespace Tyuiu.KultyshevaEA.Sprint1.Task4.V13
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("(cos pi/x)/3*e^x+y = " + Math.Round(ds.Calculate(x, y), 3));
+            Console.WriteLine("(cos pi/x)/3*e^x+y = " + ds.Calculate(x, y));
 
             Console.ReadLine();
         }

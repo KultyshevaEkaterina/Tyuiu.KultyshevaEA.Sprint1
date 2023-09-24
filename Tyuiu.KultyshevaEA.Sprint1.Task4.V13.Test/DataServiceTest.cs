@@ -15,7 +15,7 @@ namespace Tyuiu.KultyshevaEA.Sprint1.Task4.V13.Test
             double x = 2;
             double y = 6;
             double wait = 0;
-            var res = Math.Round(ds.Calculate(x, y),3);
+            var res = ds.Calculate(x, y);
             Assert.AreEqual(wait, res);
         }
     }

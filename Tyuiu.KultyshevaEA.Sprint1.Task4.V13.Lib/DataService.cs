@@ -12,7 +12,7 @@ namespace Tyuiu.KultyshevaEA.Sprint1.Task4.V13.Lib
     {
         public double Calculate(double x, double y)
         {
-            var res = Math.Cos(Math.PI/x)/(3*Math.Pow(Math.E,x+y));
+            var res = Math.Round(Math.Cos(Math.PI/x)/(3*Math.Pow(Math.E,x+y)),3);
             return res;
         }
     }
