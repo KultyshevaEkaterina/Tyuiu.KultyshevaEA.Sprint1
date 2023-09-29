@@ -20,7 +20,7 @@ namespace Tyuiu.KultyshevaEA.Sprint1.Task7.V26
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
             Console.WriteLine("* Задание #7                                                              *");
-            Console.WriteLine("* Вариант #26                                                              *");
+            Console.WriteLine("* Вариант #26                                                             *");
             Console.WriteLine("* Выполнила: Култышева Екатерина Александровна | ИИПБ-23-3                *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
@@ -31,9 +31,9 @@ namespace Tyuiu.KultyshevaEA.Sprint1.Task7.V26
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("*     sin^2x + y   x*y - 12                                                   *");
-            Console.WriteLine("* z = ---------- - ---------                                              *");
-            Console.WriteLine("*      y + 1        34 + x^2                                              *");
+            Console.WriteLine("*     sin^2x + y    x*y - 12                                              *");
+            Console.WriteLine("* z = ---------- - ----------                                             *");
+            Console.WriteLine("*        y + 1      34 + x^2                                              *");
 
 
             double x,y;
